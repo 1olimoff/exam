@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.girls-profile {
+  display: flex;
+  gap: 7px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-title {
+  margin-top: 50px;
+}
+.portfolio-title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -3%;
+  vertical-align: middle;
+}
+
+.girl-name span {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -4%;
+  vertical-align: middle;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.girls-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+}
+.girls-btn .touch-btn {
+  width: 182px;
+  height: 48px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.girls-btn button {
+  width: 48px;
+  border: 1px solid #D4D4D4;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.img-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -3%;
+  vertical-align: middle;
+  width: 728px;
+  color: #404040;
+  padding: 10px 0;
+}
+.img-text h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -3%;
+  vertical-align: middle;
+  color: black;
+  margin: 20px 0;
+}
+.img-text h2 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -3%;
+  vertical-align: middle;
+}
+.img-text div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.xxl {
+  margin-top: 30px;
+}
+
+.more-cards {
+  display: flex;
+  gap: 16px;
+}
+
+.more-cards-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.more-cards-title h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -4%;
+  padding: 6px 0;
+}
+.more-cards-title p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -4%;
+  vertical-align: middle;
+  color: #000000;
+  padding: 6px 0;
+}
+
+.card-comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 13px;
+  justify-content: space-between;
+}
+.card-comment button {
+  border: 1px solid #D4D4D4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 32px;
+  cursor: pointer;
+  background-color: white;
+}
+.card-comment p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: black;
+  width: 300px;
+}
+
+.romana {
+  margin-top: 50px;
+}
+
+.related-cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.related-card {
+  width: 288px;
+  border-radius: 9px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-text p {
+  width: 290px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-indent: 1.05px;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: #000000;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.in-mobile {
+  display: none;
+}
+
+.card-price {
+  display: flex;
+  padding: 11px 5px;
+}
+.card-price p {
+  display: flex;
+  gap: 5px;
+}
+.card-price span {
+  color: #737373;
+  margin-left: 26px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .portfolio-title h3 {
+    width: 326px;
+    margin-left: 10px;
+  }
+  .touch-btn {
+    display: none;
+  }
+  .girls-btn {
+    padding: 0 2px;
+  }
+  .girls-btn button {
+    width: 32px;
+    height: 32px;
+  }
+  .card-img img {
+    width: 374px;
+  }
+  .img-text {
+    padding: 0 14px;
+    margin: 0 auto;
+  }
+  .img-text div p {
+    width: 326px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -3%;
+    vertical-align: middle;
+    margin: 0;
+  }
+  .img-text div h3 {
+    margin: 0;
+  }
+  .img-text p {
+    width: 326px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -3%;
+    vertical-align: middle;
+    margin: 0;
+  }
+  .more-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+  .more-cards-title {
+    padding: 12px;
+    margin: 0;
+  }
+  .more-cards-title h3 {
+    margin: 0;
+  }
+  .more-cards-title p {
+    display: none;
+  }
+  .more-card img {
+    width: 326px;
+  }
+  .card-comment button {
+    background-color: #E5E5E5;
+  }
+  .romana {
+    background-color: #E5E5E5;
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+  }
+  .related-cards {
+    overflow-x: auto;
+    padding: 0 10px;
+  }
+  .romana {
+    margin: 0;
+    padding-top: 20px;
+  }
+  .more-cards-title {
+    margin: 0;
+  }
+  .related-card {
+    background-color: white;
+  }
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  .mobile img {
+    display: flex;
+  }
+  .cards-title {
+    padding: 5px 10px;
+  }
+  .in-mobile {
+    display: flex;
+  }
+  .in-mobile button {
+    background-color: black;
+  }
+}/*# sourceMappingURL=style.css.map */
