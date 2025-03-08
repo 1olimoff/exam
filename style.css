@@ -241,9 +241,9 @@
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .portfolio-title h3 {
-    width: 326px;
+    width: 70%;
     margin-left: 10px;
   }
   .touch-btn {
@@ -257,14 +257,14 @@
     height: 32px;
   }
   .card-img img {
-    width: 374px;
+    width: 100%;
   }
   .img-text {
     padding: 0 14px;
     margin: 0 auto;
   }
   .img-text div p {
-    width: 326px;
+    width: 80%;
     font-family: "Inter";
     font-weight: 400;
     font-size: 14px;
@@ -277,7 +277,7 @@
     margin: 0;
   }
   .img-text p {
-    width: 326px;
+    width: 80%;
     font-family: "Inter";
     font-weight: 400;
     font-size: 14px;
@@ -302,7 +302,7 @@
     display: none;
   }
   .more-card img {
-    width: 326px;
+    width: 100%;
   }
   .card-comment button {
     background-color: #E5E5E5;

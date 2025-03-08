@@ -261,10 +261,11 @@
 
 //Mobile version
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .portfolio-title {
         h3 {
-            width: 326px;
+            width: 70%;
+
             margin-left: 10px;
         }
     }
@@ -282,7 +283,7 @@
 
     .card-img {
         img {
-            width: 374px;
+            width: 100%;
 
         }
 
@@ -295,7 +296,7 @@
 
         div {
             p {
-                width: 326px;
+                width: 80%;
                 font-family: "Inter";
                 font-weight: 400;
                 font-size: 14px;
@@ -311,7 +312,7 @@
         }
 
         p {
-            width: 326px;
+            width: 80%;
             font-family: "Inter";
             font-weight: 400;
             font-size: 14px;
@@ -339,8 +340,9 @@
     }
     .more-card{
         img{
-            width: 326px;
+            width: 100%;
         }
+        
     }
     .card-comment{
         button{
