@@ -69,12 +69,18 @@
         color: white;
         border-radius: 9px;
         cursor: pointer;
+        font-family: "Inter" sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
     }
 
     button {
         width: 48px;
         border: 1px solid #D4D4D4;
         height: 48px;
+        display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 9px;
@@ -95,7 +101,7 @@
     margin-top: 50px;
 
     p {
-        font-family: "Inter";
+        font-family: "Inter" sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -104,21 +110,23 @@
         width: 728px;
         color: #404040;
         padding: 10px 0;
+        color: rgba(64, 64, 64, 1);
     }
 
     h3 {
-        font-family: "Inter";
+        font-family: "Inter" sans-serif;
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: -3%;
         vertical-align: middle;
         color: black;
-        margin: 20px 0;
+        margin: 13px 0;
+
     }
 
     h2 {
-        font-family: "Inter";
+        font-family: "Inter" sans-serif;
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
@@ -126,10 +134,20 @@
         vertical-align: middle;
     }
 
-    div {
+    .jonga-tegdi{
         display: flex;
         flex-direction: column;
         gap: 18px;
+        font-family: "Inter" sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -3%;
+        vertical-align: middle;
+        width: 728px;
+        color: #404040;
+        padding: 10px 0;
+        color: rgba(64, 64, 64, 1);
     }
 }
 
@@ -145,7 +163,8 @@
 .more-cards-title {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding: 10px 0;
 
     h3 {
         font-family: "Inter";
@@ -154,10 +173,11 @@
         line-height: 24px;
         letter-spacing: -4%;
         padding: 6px 0;
+
     }
 
     p {
-        font-family: "Inter";
+        font-family: "Inter" sans-serif;
         font-weight: 300;
         font-size: 18px;
         line-height: 24px;
@@ -186,6 +206,11 @@
         height: 32px;
         cursor: pointer;
         background-color: white;
+
+        img {
+            width: 15px;
+            height: 15px;
+        }
     }
 
     p {
@@ -195,19 +220,19 @@
         line-height: 16px;
         letter-spacing: -2%;
         vertical-align: middle;
-        color: black;
+        color: rgba(64, 64, 64, 1);
         width: 300px;
     }
 }
 
 .romana {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .related-cards {
     display: flex;
     gap: 20px;
-    padding: 20px 0;
 }
 
 .related-card {
@@ -223,23 +248,24 @@
 
     p {
         width: 290px;
-        font-family: "Inter";
+        font-family: "Inter" sans-serif;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         text-indent: 1.05px;
         letter-spacing: -2%;
         vertical-align: middle;
-        color: #000000;
+        color: #404040;
         margin-top: 10px;
         padding: 0 10px;
     }
 
 }
 
-.in-mobile{
+.in-mobile {
     display: none;
 }
+
 .card-price {
     display: flex;
     padding: 11px 5px;
@@ -254,27 +280,27 @@
         margin-left: 26px;
     }
 }
-.mobile{
+
+.mobile {
     display: none;
 }
 
 
 //Mobile version
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 430px) {
     .portfolio-title {
         h3 {
-            width: 70%;
-
-            margin-left: 10px;
+            width: 320px;
+            margin-left: 25px;
         }
     }
 
-    .touch-btn{
-        display: none;
-    }
     .girls-btn {
         padding: 0 2px;
+        .touch-btn{
+            display: none;
+        }
         button {
             width: 32px;
             height: 32px;
@@ -293,103 +319,216 @@
     .img-text {
         padding: 0 14px;
         margin: 0 auto;
+        .jonga-tegdi{
+            width: 326px;
+            h2 {
+                margin: 10px 0;
+                width: 326px;
 
-        div {
-            p {
-                width: 80%;
-                font-family: "Inter";
+            }
+            span {
+                width: 326px;
+                font-family: "Inter" sans-serif;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 22px;
                 letter-spacing: -3%;
                 vertical-align: middle;
                 margin: 0;
+                font-family: "Inter" sans-serif;
+                color: rgba(64, 64, 64, 1);
+
+            }
+
+        }
+        div {
+            span {
+                width: 326px;
+                font-family: "Inter" sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: -3%;
+                vertical-align: middle;
+                margin: 0;
+                font-family: "Inter" sans-serif;
+                color: rgba(64, 64, 64, 1);
+
+            }
+
+            p {
+                width: 326px;
+                font-family: "Inter" sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: -3%;
+                vertical-align: middle;
+                margin: 0;
+                // padding: 20px 0 0 20px;
             }
 
             h3 {
                 margin: 0;
+                margin-left: 10px;
             }
+
+            h2 {
+                margin: 10px 0;
+            }
+
         }
 
         p {
-            width: 80%;
-            font-family: "Inter";
+            width: 320px;
+            font-family: "Inter" sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: -3%;
+            vertical-align: middle;
+            padding: 15px 0;
+        }
+    }
+
+    .text-xxl {
+        p {
+            width: 326px;
+            font-family: "Inter" sans-serif;
             font-weight: 400;
             font-size: 14px;
             line-height: 22px;
             letter-spacing: -3%;
             vertical-align: middle;
             margin: 0;
+            padding: 20px 0 0 20px;
+
         }
     }
-    .more-cards{
+
+    .more-cards {
         display: flex;
         flex-direction: column;
         padding: 12px;
-        
+
     }
-    .more-cards-title{
+
+    .more-cards-title {
         padding: 12px;
-        margin: 0 ;
-        h3{
+        margin: 0;
+
+        h3 {
             margin: 0;
         }
-        p{
+
+        p {
             display: none;
         }
     }
-    .more-card{
-        img{
+
+    .more-card {
+        img {
             width: 100%;
         }
-        
+
     }
-    .card-comment{
-        button{
-            background-color: #E5E5E5 ;
+
+    .card-comment {
+        button {
+            background-color: #E5E5E5;
         }
     }
-    .romana{
+
+    .romana {
         background-color: #E5E5E5;
+
     }
-    .social-icon{
+
+    .social-icon {
         width: 20px;
         height: 20px;
         border-radius: 6px;
 
     }
-    .related-cards{
+
+    .related-cards {
         overflow-x: auto;
         padding: 0 10px;
     }
-    .romana{
+
+    .romana {
         margin: 0;
         padding-top: 20px;
     }
-    .more-cards-title{
+
+    .more-cards-title {
         margin: 0;
     }
-    .related-card{
+
+    .related-card {
         background-color: white;
     }
-    .mobile{
+
+    .mobile {
         display: flex;
         justify-content: space-between;
-        img{
-            display: flex;
-        }
+
         padding: 5px 10px;
         margin-top: 10px;
     }
-    .cards-title{
+
+    .cards-title {
         padding: 5px 10px;
     }
-    .in-mobile{
-        button{
 
+    .in-mobile {
+        button {
             background-color: black;
         }
+
         display: flex;
     }
-   
+
+    .mobile-pics {
+        .saloom {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+
+            .div-card {
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-family: "Inter";
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -2%;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .qiz-rasmi {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 5px;
+            font-family: "Inter" sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0%;
+            vertical-align: middle;
+
+        }
+    }
 }
